@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
@@ -8,6 +9,7 @@ const App = () => {
 
       <div className="container mx-auto px-8">
         <Navbar />
+        <Hero />
       </div>
     </div>
   )
